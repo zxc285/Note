@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>note</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="notes" id="app"> 
+        <!-- 左邊的 side bar -->
+        <div class="notes__sidebar">
+            <button class="notes__add" type="button"> Add Notes </button>
+            <div class="notes__list">
+                <div class="notes__list-item notes__list-item--selected">
+                    <div class="notes__small-title"> Lecture Notes </div>
+                    <div class="notes__small-body"> I learn nothing today</div>
+                    <div class="notes__small-updated"> Thursday 3:30 pm</div>
+                </div>
+
+            </div>
+        </div>  
+        
+        <!-- 右邊的 preview -->
+        <div class="notes__preview">
+            <input type="text" class="notes__title" placeholder="Enter a title">
+            <textarea class="notes__body"> Input your text here</textarea>
+        </div>
+    
+    </div>  
+    <script src="./js/main.js" type="module"></script> 
+</body>
+</html>
